@@ -9,11 +9,20 @@ def main():
 
     C.set_array(array)
 
-    print(C.get_array())
+    print("Compute takes array's elements to the power of {}".format(exponent))
+    print("")
+    print("Array before computing : {}".format(C.get_array()))
+    print("")
 
     C.compute_exponent()
 
-    print(C.get_array())
+    print("Array after computing : {}".format(C.get_array()))
+    print("")
+
+    print("Same array after computing but with integer elements : {}".format(np.array(C.get_array(), dtype = "int")))
+    print("")
+
+
 
 if __name__ == "__main__":
     main()
