@@ -9,6 +9,7 @@ It can of course be used for other means
 
 ## You will need
 The library boost python, and you'll need to change`LIBRARIES` and `INCLUDES` in the makefile to match your boost local path
+(On UiO computers, boost is preinstalled, type `module load python/anaconda` in terminal and it will work as it is)
 
 ## Test it
 - After you have changed the makefile, open a terminal in its directory and type `make`
