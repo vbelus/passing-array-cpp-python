@@ -1,4 +1,5 @@
-
+- After you have changed the makefile (if needed), open a terminal in its directory and type `make`
+- Then you can execute the script `array_py.py` 
 - You can also open a python terminal in the directory of cpp.so and type `import cpp`
 - You can then use functions from the file `array_cpp.cpp`, such as `cpp.square()` which squares the values of a numpy.ndarray
 
