@@ -1,4 +1,5 @@
-
+- After you have changed the makefile (if needed), open a terminal in its directory and type `make`
+- Then you can execute the script `array_py.py` 
 - You can also open a python terminal in the directory of cpp.so and type `import cpp`
 - You can create an object of the C++ class with `C = cpp.Array_cpp(5)`
 - You can then call the member functions of the class : `C.set_array(array)`, `C.compute_exponent()`, `C.get_array()`
